@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Index</title>
+    <link rel="stylesheet" href="../css/styles.css">
+</head>
+<body>
+    <h1>Creación de Cajas</h1>
+    <p>Ingrese el número de cajas y haga clic en el botón para generarlas.</p>
+    <button onclick="crearCajas()">Generar Cajas</button>
+    <div id="resultado"></div>
+
+    <h1>Votaciones</h1>
+    <form id="votacionesForm">
+        <label for="zonas">Zona:</label>
+        <select id="zonas">
+            <option value="norte">Norte</option>
+            <option value="sur">Sur</option>
+            <option value="este">Este</option>
+            <option value="oeste">Oeste</option>
+        </select><br>
+        <label>Candidatos:</label><br>
+        <input type="radio" name="candidato" value="candidato1"> Candidato 1<br>
+        <input type="radio" name="candidato" value="candidato2"> Candidato 2<br>
+        <input type="radio" name="candidato" value="candidato3"> Candidato 3<br>
+        <input type="radio" name="candidato" value="candidato4"> Candidato 4<br>
+        <button type="button" onclick="registrarVoto()">Registrar Voto</button>
+    </form>
+    <div id="resultadoVotaciones"></div>
+
+    <h1>Sumatoria de Números Positivos</h1>
+    <button onclick="sumarNumeros()">Sumar Números</button>
+    <div id="resultadoSumatoria"></div>
+
+    <script src="../javascript/funciones.js"></script>
+</body>
+</html>

@@ -1,0 +1,31 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+h1 {
+    color: #333;
+}
+
+#resultado, #resultadoVotaciones, #resultadoSumatoria {
+    margin-top: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+
+.caja {
+    width: 100px;
+    height: 100px;
+    margin: 5px;
+    display: inline-block;
+    background-color: lightblue;
+    text-align: center;
+    line-height: 100px;
+    font-weight: bold;
+}
+
+.caja-grande {
+    width: 150px;
+    height: 150px;
+    background-color: lightcoral;
+}
